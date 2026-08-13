@@ -1,0 +1,7 @@
+n = int(input("Enter a number: "))
+fact = 1
+i = 2
+while i <= n:
+    fact *= i
+    i += 1
+print("Factorial of", n, "is:", fact)
